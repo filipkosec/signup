@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="leftPane">
+        <div class="leftContainer">
+        <img src="logo.svg" alt="Cute kitty logo">
+        <p class="logoText">Databazely.io</p>
+        </div>
+    </div>
+    <div class="rightPane">
+        <p class = "topText1">Leading database managment solutions</p>
+        <p class = "topText2">Join our growing network of customer</p>
+        <div class="inputArea">
+            <form action = "#" method="post">
+                <legend>Let's go!</legend>
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" name = "firstName" id = "firstName" placeholder="John" required>
+                <label for="lastName">LAST NAME</label>
+                <input type="text" name="lastName" id = "lastName" placeholder="Doe" required>
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" placeholder="email@domain.com" required>
+                <label for="phoneNumber">PHONE NUMBER</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" id="phoneNumber" placeholder="+...">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required>
+                <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                <input type="password" name="passwordConfirm" id = "passwordConfirm" required>
+                <button class="createAccountButton">Create Account</button>
+            </form>
+        </div>
+        <p class = "underButtonText">Already have an account? <a href ="#">Log in</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+p,
+a {
+    font-family: "roboto mono", monospace;
+}
+
+body {
+    background-image: url("Backgr.jpg");
+    position: relative;
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    align-content: flex-start;
+}
+
+.leftPane {
+    width: max(250px, 33vw);
+    flex: 1 0 auto;
+    position: inherit;
+}
+.leftContainer {
+    display: flex;
+    position: static;
+    margin-bottom: 50px;
+    background-image: url("LogoBackg.png");
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+img[src="logo.svg"] {
+    width: max(60px, 7vw);
+    height: max(60px, 7vw);
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.logoText {
+    font-size: max(40px, 3vw);
+    word-wrap: break-word;
+    padding-right: 40px;
+}
+
+.rightPane {
+    width: max(250px, 67vw);
+    height: 100vh;
+    flex: 1 1 auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.topText1 {
+    font-size: max(60px, 3vw);
+    padding: max(20px, 1vw);
+    margin: 0px;
+}
+
+.topText2 {
+    font-size: max(30px, 1.5vw);
+    padding: max(20px, 1vw);
+    margin: 0px;
+}
